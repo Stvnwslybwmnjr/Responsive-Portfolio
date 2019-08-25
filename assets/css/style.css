@@ -227,39 +227,29 @@ Responsive
 @media only screen and (max-width: 980px) {
     #main-container {
         
-        height: auto;
-        overflow: auto;
         padding: 30px;
         margin: 0 auto;
-       
         box-sizing: border-box;
     }
 
     .links {
         text-align: right;
-        /* height: 82px; */
         float: right;
         padding-top: 31px;
         padding-bottom: 31px; 
         padding-right: 31px;  
     }
 
-    #masthead{
-        
-    }
+    
     .bumpdown{
         margin-top: 20%;
     }
 }
 
-@media only screen and (max-width: 767px) {
-    #main-container {
-       
-    }
-
+@media only screen and (max-width: 768px) {
+   
     .links {
         text-align: right;
-        /* height: 82px; */
         float: right;
         padding-top: 31px;
         padding-bottom: 31px; 
@@ -267,10 +257,9 @@ Responsive
     }
 
 }
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 640px) {
     #main-container {
-        height: auto;
-        overflow: auto;
+      
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -292,14 +281,18 @@ Responsive
         padding-right: 10px;
     }
     .bumpdown{
-        margin: 35% 0;
+        margin: 45% 0;
     }
     
     img {
-        max-width: 294px;
-        height: auto;
+        max-width: 300px;
         display: block;
-        margin: 0 auto;
         padding: 10px 10px 10px px;
+    }
+    
+
+@media only screen and (max-width: 430px) {
+    .bumpdown{
+        margin: 60% 0;
     }
 }
